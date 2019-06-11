@@ -1,0 +1,26 @@
+@media all and (min-width: 480px) {
+    .menu{
+        background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .dcard{
+        color: white;
+        background-color: rgba(0,0,0,0);
+        border: none;
+    }
+    .dcard:hover{
+        background-color: rgba(0,0,0,0.2);
+    }
+    .dishcart{
+        color: white;
+        text-align: center;
+    }
+    .button{
+        font-size: 120%;
+    }
+    .price{
+        font-size: 150%;
+    }
+}
